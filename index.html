@@ -40,7 +40,7 @@
 <body class="font-manrope max-w-[1440px] mx-auto">
     <header>
         <!-- nav section  -->
-        <nav class="container max-w-[1170px] lg:px-20 md:px-6 px-4 my-8 mx-auto">
+        <nav class="container max-w-[1170px] px-4 my-8 mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -80,7 +80,7 @@
         <!-- Banner Section -->
         <section class="">
             <!--   carousel    -->
-            <div class="container max-w-[1170px] lg:my-20 lg:px-20 md:px-6 px-4 my-8 mx-auto relative">
+            <div class="container max-w-[1170px] lg:my-20 px-4 my-8 mx-auto relative">
                 <div class="carousel w-full">
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="./Images/1.png" class="w-full" />                        
@@ -119,40 +119,42 @@
             </div>
         </section>
     </header>
-
+    
     <body>
         <!-- Hockeys Club Section -->
         <section>
-            <div class="container max-w-[1170px] lg:my-20 lg:px-20 md:px-6 px-4 my-8 mx-auto">
+            <div class="container max-w-[1170px] lg:my-20 px-4 my-8 mx-auto">
                 <div
                     class="flex flex-col justify-center text-center items-center border-dashed border-b-2 border-t-2 border-[#13131833]">
                     <h1 class="mt-8 text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
                     <p class="my-8 font-medium max-w-[600px]">The professional hockey club, with its skilled athletes
                         and dedicated staff, strives for excellence both on and off the ice.</p>
-                </div>
-                <div class="flex">
-                    <div class=" flex flex-col justify-center items-center">
-                        <div class="radial-progress text-red-700" style="--value:87; --size:12rem; --thickness: 2rem;"
-                            role="progressbar">87%</div>
-                        <p>Prayer Facility</p>
-                        <p>Offering solace in a tranquil environment..</p>
+                </div>  
+                <div class="flex flex-col lg:flex-row lg:gap-4 lg:justify-around">
+                    <div class=" flex flex-col justify-center text-center items-center mt-12">
+                        <div class="radial-progress text-[#FF4240]" style="--value:87; --size:8rem; --thickness: 1rem;"
+                            role="progressbar"> <span class="text-3xl text-black-color font-extrabold">87%</span></div>
+                        <p class="mt-6 text-2xl font-semibold">Prayer Facility</p>
+                        <p class="mt-4">Offering solace in a tranquil environment..</p>
                     </div>
-                    <div class=" flex flex-col justify-center items-center">
-                        <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
-                        <p>Prayer Facility</p>
-                        <p>Offering solace in a tranquil environment..</p>
+                    <div class=" flex flex-col justify-center text-center items-center mt-12">
+                        <div class="radial-progress text-[#49D293]" style="--value:95; --size:8rem; --thickness: 1rem;"
+                            role="progressbar"> <span class="text-3xl text-black-color font-extrabold">95%</span></div>
+                        <p class="mt-6 text-2xl font-semibold">Experienced Coach</p>
+                        <p class="mt-4">Expert coach: Guides, motivates individuals.</p>
                     </div>
-                    <div class=" flex flex-col justify-center items-center">
-                        <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
-                        <p>Prayer Facility</p>
-                        <p>Offering solace in a tranquil environment..</p>
+                    <div class=" flex flex-col justify-center text-center items-center mt-12">
+                        <div class="radial-progress text-[#FFb546]" style="--value:90; --size:8rem; --thickness: 1rem;"
+                            role="progressbar"> <span class="text-3xl text-black-color font-extrabold">90%</span></div>
+                        <p class="mt-6 text-2xl font-semibold">Senior Player</p>
+                        <p class="mt-4">Seasoned expertise contribute to team.</p>
                     </div>
-                    <div class=" flex flex-col justify-center items-center">
-                        <div class="radial-progress text-primary" style="--value:87;" role="progressbar">87%</div>
-                        <p>Prayer Facility</p>
-                        <p>Offering solace in a tranquil environment..</p>
+                    <div class=" flex flex-col justify-center text-center items-center mt-12">
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:8rem; --thickness: 1rem;"
+                            role="progressbar"> <span class="text-3xl text-black-color font-extrabold">80%</span></div>
+                        <p class="mt-6 text-2xl font-semibold">Training Ground</p>
+                        <p class="mt-4">Crucial arena where skills are honed.</p>
                     </div>
-
                 </div>
             </div>
 
@@ -161,7 +163,7 @@
 
         <!-- Program Section -->
         <section>
-            <div class="container lg:my-20 lg:px-20 md:px-6 px-4 my-8 mx-auto">
+            <div class="container max-w-[1170px] lg:my-20 px-4 my-8 mx-auto">
                 <div
                     class="flex flex-col justify-center text-center items-center border-dashed border-b-2 border-t-2 border-[#13131833]">
                     <h1 class="mt-8 text-2xl lg:text-4xl font-extrabold">Program Sections</h1>
@@ -169,7 +171,56 @@
                         organizing and navigating through different aspects, ensuring a comprehensive and seamless
                         experience.</p>
                 </div>
-
+            </div>
+            <!-- program gallery -->
+            <div class="container max-w-[1170px] lg:my-20 px-4 my-8 mx-auto">
+            <div class="grid gap-6 grid-cols-1 lg:grid-cols-2 lg:pt-6 font-extrabold">
+                <div class="bg-[linear-gradient(180deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./Images/2.png)] rounded-2xl p-[1.5rem] lg:p-10 h-[17rem] lg:h-[21.125rem] flex flex-col justify-end space-y-5 lg:space-y-6 bg-cover bg-center">
+                  <div class="space-y-4">
+                    <h2 class="text-xl lg:text-3xl font-extrabold text-white">
+                      Junior Program
+                    </h2>
+                    <p class="text-[14px] lg:text-base text-white font-medium">
+                        The Junior Program serves as a dynamic incubator for budding talent, nurturing the skills and passion of young individuals in their chosen field.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn bg-red-color text-white text-xl font-bold border-0">
+                      Register Now!
+                    </button>
+                  </div>
+                </div>
+                <div class="bg-[linear-gradient(180deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./Images/3.png)] rounded-2xl p-[1.5rem] lg:p-10 h-[17rem] lg:h-[21.125rem] flex flex-col justify-end space-y-5 lg:space-y-6 bg-cover bg-center">
+                    <div class="space-y-4">
+                        <h2 class="text-xl lg:text-3xl font-extrabold text-white">
+                        Teenager Program
+                        </h2>
+                        <p class="text-[14px] lg:text-base text-white font-medium">
+                            The Teenager Program is a transformative journey that empowers adolescents to discover their potential and navigate the challenges of their formative years.
+                        </p>
+                      </div>
+                      <div>
+                        <button class="btn bg-red-color text-white text-xl font-bold border-0">
+                          Register Now!
+                        </button>
+                      </div>
+                </div>
+                <div class="bg-[linear-gradient(180deg,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./Images/4.png)] lg:col-span-2 rounded-2xl p-[1.5rem] lg:p-10 h-[17rem] lg:h-[28.125rem] flex flex-col justify-end space-y-5 lg:space-y-6 bg-cover bg-center">
+                  <div class="space-y-3">
+                    <h2 class="text-xl lg:text-3xl font-extrabold text-white">
+                      Professional Program
+                    </h2>
+                    <p class="text-[14px] lg:text-base text-white font-medium lg:w-5/12">
+                        The Professional Program is a comprehensive platform designed to elevate individuals in their respective fields. Through targeted training, specialized education, and hands-on experience, this program equips professionals with the advanced skills and knowledge needed to excel in their careers.
+                    </p>
+                  </div>
+                  <div>
+                    <button class="btn bg-red-color text-white text-xl font-bold border-0">
+                      Register Now!
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
 
         </section>
